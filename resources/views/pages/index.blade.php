@@ -15,5 +15,95 @@
                 eligendi soluta sed tempora voluptate ipsa voluptatem distinctio? Dignissimos, neque!
             </p>
         </section>
+        <section>
+            <h1>Ylatest products</h1>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Yproducts</h1>
+            <div class="products-grid-2">
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+                <div class="product">
+                    <img src="{{ asset('img/yplaceholder.png') }}" alt="yplaceholder" width="150" height="150">
+                    <h1>Yproduct</h1>
+                    <p>Ydescription</p>
+                </div>
+            </div>
+        </section>
     </div>
 @endsection

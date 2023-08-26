@@ -17,6 +17,7 @@ Route::group(['prefix'=>'/'], function() {
     Route::get('', 'PagesController@index')->name('index');
     // hidden
     Route::get('/ypanel/login', 'PagesController@y_panel_login')->name('ypanel.login');
+    Route::post('/ypanel/login', 'YPanelAuthController@store')->name('ypanel.store');
 });
 
 Auth::routes();

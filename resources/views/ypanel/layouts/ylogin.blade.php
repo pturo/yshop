@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Yshop</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -18,7 +18,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/ypanel.css') }}" type="text/css">
 </head>
 
 <body>
@@ -30,9 +30,6 @@
                     <p>Yheader</p>
                     <ul>
                         <li><a href="/">Ymain</a></li>
-                        <li>Yproducts</li>
-                        <li>Ycontact</li>
-                        <li>Ylogin</li>
                     </ul>
                 </nav>
             </div>

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Ypanel</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -23,25 +23,43 @@
 
 <body>
     <div id="app">
-        <div class="container">
-            <!-- header -->
-            <header>
+        <!-- header -->
+        <header>
+            <div class="row">
+                <nav>
+                    <p>Yheader</p>
+                    <ul>
+                        <li><a href="/">Ymain</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content-box">
+            <aside>
                 <div class="row">
-                    <nav>
-                        <p>Yheader</p>
-                        <ul>
-                            <li><a href="/">Ymain</a></li>
-                        </ul>
-                    </nav>
+                    <div class="sidebar-content">
+                        <h1>Ysidebar</h1>
+                        <div class="sidebar-nav">
+                            <ul>
+                                <li>Yproducts</li>
+                                <li>Yoption1</li>
+                                <li>Yoption2</li>
+                                <li>Yempty</li>
+                            </ul>
+                            <p>YYYYYYYYYYYYYYYYY</p>
+                        </div>
+                    </div>
                 </div>
-            </header>
+            </aside>
             <main class="py-4">
                 @yield('content')
             </main>
-            <footer>
-                Yfooter
-            </footer>
         </div>
+        <footer>
+            <div class="row">
+                <p>Yfooter</p>
+            </div>
+        </footer>
     </div>
 </body>
 
