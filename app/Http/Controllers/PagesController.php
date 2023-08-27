@@ -17,6 +17,10 @@ class PagesController extends Controller
 
     }
 
+    public function product_details() {
+        return view('pages.product-details');
+    }
+
     public function contact() {}
 
     public function login() {}

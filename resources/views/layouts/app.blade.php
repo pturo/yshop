@@ -16,9 +16,11 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css" />
 </head>
 
 <body>
@@ -30,7 +32,7 @@
                     <p>Yheader</p>
                     <ul>
                         <li><a href="/">Ymain</a></li>
-                        <li>Yproducts</li>
+                        <li><a href="/products">Yproducts</a></li>
                         <li>Ycontact</li>
                         <li>Ylogin</li>
                     </ul>

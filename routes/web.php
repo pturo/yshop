@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix'=>'/'], function() {
     Route::get('', 'PagesController@index')->name('index');
+    Route::get('/product-details', 'PagesController@product_details')->name('products.product-details');
     // hidden
     Route::get('/ypanel/login', 'PagesController@y_panel_login')->name('ypanel.login');
     Route::post('/ypanel/login', 'YPanelAuthController@store')->name('ypanel.store');

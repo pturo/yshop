@@ -30,6 +30,7 @@
                     <p>Yheader</p>
                     <ul>
                         <li><a href="/">Ymain</a></li>
+                        <li><a href="/">Ylogout</a></li>
                     </ul>
                 </nav>
             </div>
